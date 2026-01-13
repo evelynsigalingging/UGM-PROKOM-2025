@@ -1,0 +1,7 @@
+text= input("masukan sebuah string:")
+text_baru=text.strip()
+text_baru_baru=text_baru.lower()  
+text_baru_banget=text_baru_baru.replace("a","@")
+jumlah_huruf =len(text_baru_banget)
+print("hasil string setelah diolah:",text_baru_banget)
+print("jumlah karakter:",jumlah_huruf)
